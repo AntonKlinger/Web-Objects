@@ -1,0 +1,53 @@
+nav {
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    background: #1b1b1b;
+    width: 100px;
+    line-height: 30px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    }
+
+nav label {
+    color: white;
+    }
+
+nav ul {
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    background: #1b1b1b;
+    width: 200px;
+    display: none;
+    list-style: none;
+    padding: 0px 10px;
+    border-radius: 5px;
+    }
+
+nav ul li {
+    line-height: 40px;
+    padding: 8px;
+    }
+
+nav ul ul {
+    position: static;
+    width: 100px;
+    }
+
+[id^=btn]:checked + ul {
+    display: block;
+    }
+
+input {
+    display: none;
+    }
+
+nav :hover {
+    color: cyan;
+    }
+
+nav ul li label {
+    color: white;
+    text-decoration: none;
+    }
